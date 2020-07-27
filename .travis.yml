@@ -1,9 +1,9 @@
 language: 
 - cpp
+os: Windows
 dist: bionic
 sudo: required
-complie:
-- g++
+complie: g++
 install:
 - sudo apt update
 
