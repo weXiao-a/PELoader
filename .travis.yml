@@ -1,12 +1,8 @@
 language: 
 - cpp
 os: Windows
-dist: bionic
-sudo: required
 complie: g++
-install:
-- sudo apt update
 
 script:
 - cd src/
-- make
+- g++ main.c
