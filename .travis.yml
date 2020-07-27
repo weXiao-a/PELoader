@@ -1,8 +1,0 @@
-language: 
-- cpp
-os: Windows
-complie: g++
-
-script:
-- cd src/
-- g++ main.c
