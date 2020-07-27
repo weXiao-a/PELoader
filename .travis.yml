@@ -1,0 +1,13 @@
+language: 
+- c
+dist: bionic
+sudo: required
+complie:
+- clang
+- gcc
+install:
+- sudo apt update
+
+script:
+- cd src/
+- make
