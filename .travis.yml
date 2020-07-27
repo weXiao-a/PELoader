@@ -1,10 +1,9 @@
 language: 
-- c
+- cpp
 dist: bionic
 sudo: required
 complie:
-- clang
-- gcc
+- g++
 install:
 - sudo apt update
 
