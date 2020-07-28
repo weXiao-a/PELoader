@@ -36,7 +36,7 @@ WORD SizeOfOptionHeader:                00E0
 WORD Characteristics:                   0103
 
 ================IMAGE_OPTION_HEADER================
-WORD Magic;                                     010B
+WORD Magic:                                     010B
 BYTE MajorLinkerVersion:                        08
 BYTE MinorLinkerVersion:                        00
 DWORD SizeOfCode;                               00001800
