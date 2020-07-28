@@ -64,7 +64,7 @@ int main(int argc, char* argv[])
 
 
 	std::cout<<"================IMAGE_OPTION_HEADER================"<<std::endl;
-	printf("WORD Magic;					%04X\n", myNTHeader.OptionalHeader.Magic);
+	printf("WORD Magic:					%04X\n", myNTHeader.OptionalHeader.Magic);
 	printf("BYTE MajorLinkerVersion:			%02X\n", myNTHeader.OptionalHeader.MajorLinkerVersion);
 	printf("BYTE MinorLinkerVersion:			%02X\n",myNTHeader.OptionalHeader.MinorLinkerVersion);
 	printf("DWORD SizeOfCode;				%08X\n", myNTHeader.OptionalHeader.SizeOfCode);
