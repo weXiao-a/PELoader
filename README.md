@@ -1,24 +1,18 @@
 ## PELoader
-PE structure loader.
+A simple PE structure loader.
 
 ## Download
 ```
 git clone git@github.com:StepfenShawn/PELoader.git
 ```
 
-## How to complie
-```
-cd src/
-make
-```
-
 ## How to run
-```
+```shell
 cd bin\
 PELoarder.exe "test.exe"
 ```
 Result:
-```
+```java
 ================IMAGE_DOS_HEADER================
 WORD e_magic:                           5A4D
 DOWRD e_lfaner:                         000000E8
@@ -63,7 +57,7 @@ DWORD SizeOfStackReserve:                       00000000
 DWORD SizeOfStackCommit:                        00000000
 DWORD SizeOfHeapReserve:                        00000000
 DWORD SizeOfHeapCommit:                         00000000
-DWORD LoaderFlags:                                  00000000
+DWORD LoaderFlags:                              00000000
 DWORD NumberOfRvaAndSizes :                     00000000
 
 ================IMAGE_OPTIONAL_HEADER================
